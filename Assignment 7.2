@@ -21,4 +21,4 @@ for line in fo:
     pos = line.find(':')
     number = line[pos+1:]
     total = total + float(line[pos+1:])
-print(total/count)
+print('Average spam confidence:',total/count)
