@@ -7,6 +7,8 @@
 
 
 fn = input('Enter File Name: ')
+if len(fn) < 1:
+    fn = "mbox-short.txt"
 try:
     fo = open(fn)
 except:
